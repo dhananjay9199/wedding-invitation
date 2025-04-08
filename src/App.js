@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="invite-container">
       <h1>You're Invited!</h1>
-      <p className="names">चि. सतीश (Army Clerk) ❤️ चि.सौ.कां. मयुरी (M.Com)</p>
+      <p className="names">चि. सतीश (Army Clerk) <br/> ❤️ <br/> चि.सौ.कां. मयुरी (M.Com)</p>
       <p>We’re getting married and would love for you to join us!</p>
 
       <div className="details">
@@ -29,17 +29,28 @@ function App() {
         <table>
           <thead>
             <tr>
-              <th>चि. सतीश <br/>(Army Clerk)</th>
               <th>
-                <img src="../images/photo_6314593985712211982_y.jpg" style={{ width : "50px", height: "50px"}}></img>
+                चि. सतीश <br />
+                (Army Clerk)
               </th>
-              <th>चि.सौ.कां. मयुरी <br/>(M.Com)</th>
+              <th>
+                <img
+                  src="../images/photo_6314593985712211982_y.jpg"
+                  style={{ width: "50px", height: "50px" }}
+                ></img>
+              </th>
+              <th>
+                चि.सौ.कां. मयुरी <br />
+                (M.Com)
+              </th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>कै. साहेबराव विट्ठलराव देशमुख यांचे नातू</td>
-              <td rowSpan={4} style={{fontWeight:"bold"}}>यांचा ।। शुभविवाह।।</td>
+              <td rowSpan={4} style={{ fontWeight: "bold" }}>
+                यांचा ।। शुभविवाह।।
+              </td>
               <td>कै. कैलासराव त्र्यंबकराव जगताप देशमुख यांची नात</td>
             </tr>
             <tr>
@@ -48,9 +59,15 @@ function App() {
               <td>श्री मंचकराव कैलासराव जगताप देशमुख</td>
             </tr>
             <tr>
-              <td>रा. घोड़ा ता. पालम जि. परभणी</td>
+              <td>
+                रा. घोड़ा ता. पालम <br />
+                जि. परभणी
+              </td>
               {/* <td></td> */}
-              <td>रा. पुंगळा ता. जिंतुर जि. परभणी</td>
+              <td>
+                रा. पुंगळा ता. जिंतुर <br />
+                जि. परभणी
+              </td>
             </tr>
             <tr>
               <td>यांचे कनिष्ठ चिरंजीव</td>
