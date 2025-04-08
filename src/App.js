@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="invite-container">
       <h1>You're Invited!</h1>
-      <p className="names">चि. सतीश (Army Clerk) <br/> ❤️ <br/> चि.सौ.कां. मयुरी (M.Com)</p>
+      <p className="names">
+        चि. सतीश (Army Clerk) <br /> ❤️ <br /> चि.सौ.कां. मयुरी (M.Com)
+      </p>
       <p>We’re getting married and would love for you to join us!</p>
 
       <div className="details">
@@ -49,7 +51,9 @@ function App() {
             <tr>
               <td>कै. साहेबराव विट्ठलराव देशमुख यांचे नातू</td>
               <td rowSpan={4} style={{ fontWeight: "bold" }}>
-                यांचा ।। शुभविवाह।।
+                यांचा
+                <br />
+                ।। शुभविवाह।।
               </td>
               <td>कै. कैलासराव त्र्यंबकराव जगताप देशमुख यांची नात</td>
             </tr>
