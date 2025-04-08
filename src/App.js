@@ -50,7 +50,7 @@ function App() {
           <tbody>
             <tr>
               <td>कै. साहेबराव विट्ठलराव देशमुख यांचे नातू</td>
-              <td rowSpan={4} style={{ fontWeight: "bold" }}>
+              <td rowSpan={4} style={{ fontWeight: "bold", width:"34%" }}>
                 यांचा
                 <br />
                 ।। शुभविवाह।।
