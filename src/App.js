@@ -6,7 +6,7 @@ import Map from "./Map";
 function App() {
   return (
     <div className="invite-container">
-      <h1>You're Invited!</h1>
+      <h1>🙏 आग्रहाचे निमंत्रण 🙏</h1><hr style={{border:"2px solid"}}/>
       <p className="names">
         चि. सतीश (Army Clerk) <br /> ❤️ <br /> चि.सौ.कां. मयुरी (M.Com)
       </p>
