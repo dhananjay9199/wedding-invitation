@@ -86,7 +86,7 @@ function App() {
         <strong>☘ आपले विनीत ☘</strong>
         <br />
         <strong>श्री मारोतराव साहेबराव देशमुख<br/>श्री मंचकराव कैलासराव जगताप देशमुख</strong>
-        <hr style={{ width: "50%", border:"1px solid black" }} />
+        <hr style={{ border:"1px solid black" }} />
         <br />
         <strong>वडिलांच्या विनंतीस मान देऊन मंगल कार्यास अगत्य यावे</strong>
       </p>
