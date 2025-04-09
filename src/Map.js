@@ -6,7 +6,7 @@ import "./App.css";
 export default function Map() {
   return (
     <div className="location-section">
-        <h2>📍 विवाह स्थळ : </h2>
+        <h2>📍 विवाह स्थळ 📍</h2>
         <p>राधाकृष्ण मंगलकार्यालय, ग्रीन पार्क - २, जिंतुर</p>
         <p>Click below to open in Google Maps:</p>
         <iframe
