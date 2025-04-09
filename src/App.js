@@ -83,12 +83,12 @@ function App() {
       </div>
 
       <p className="rsvp">
-        <strong>☘ आपले विनीत ☘</strong>
+        <strong style={{color:"gold"}}>☘ आपले विनीत ☘</strong>
         <br />
-        <strong>श्री मारोतराव साहेबराव देशमुख<br/>श्री मंचकराव कैलासराव जगताप देशमुख</strong>
+        <strong style={{color:"gold"}}>श्री मारोतराव साहेबराव देशमुख<br/>श्री मंचकराव कैलासराव जगताप देशमुख</strong>
         <hr style={{ width: "50%" }} />
         <br />
-        <strong>वडिलांच्या विनंतीस मान देऊन मंगल कार्यास अगत्य यावे</strong>
+        <strong style={{color:"gold"}}>वडिलांच्या विनंतीस मान देऊन मंगल कार्यास अगत्य यावे</strong>
       </p>
 
       <Gallery />
