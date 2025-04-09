@@ -14,15 +14,15 @@ function App() {
 
       <div className="details">
         <p>
-          <strong>☘ देवकार्य/हळदी ☘ :</strong>
+          <strong style={{color:"#f3c009"}}>☘ देवकार्य/हळदी ☘ :</strong>
           <br /> दि. ३०/०४/२०२५ बुधवार रोजी सायं.
         </p>
         <p>
-          <strong>विवाह मुहूर्त :</strong>
+          <strong style={{color:"red"}}>विवाह मुहूर्त :</strong>
           <br /> गुरुवार दि. ०१/०५/२०२५ दुपारी १२:३६ मि.
         </p>
         <p>
-          <strong>विवाह स्थळ :</strong>
+          <strong style={{color:"green"}}>विवाह स्थळ :</strong>
           <br /> राधाकृष्ण मंगलकार्यालय, ग्रीन पार्क - २, जिंतुर
         </p>
       </div>
@@ -31,7 +31,7 @@ function App() {
         <table>
           <thead>
             <tr>
-              <th>
+              <th style={{color:"#e12525"}}>
                 चि. सतीश <br />
                 (Army Clerk)
               </th>
@@ -41,7 +41,7 @@ function App() {
                   style={{ width: "50px", height: "50px" }}
                 ></img>
               </th>
-              <th>
+              <th style={{color:"#e12525"}}>
                 चि.सौ.कां. मयुरी <br />
                 (M.Com)
               </th>
@@ -53,7 +53,7 @@ function App() {
               <td rowSpan={4} style={{ fontWeight: "bold", width:"34%" }}>
                 यांचा
                 <br />
-                ।। शुभविवाह।।
+                <p style={{color:"#f94060"}}>।। शुभविवाह।।</p>
               </td>
               <td>कै. कैलासराव त्र्यंबकराव जगताप देशमुख यांची नात</td>
             </tr>
@@ -85,7 +85,7 @@ function App() {
       <p className="rsvp">
         <strong>☘ आपले विनीत ☘</strong>
         <br />
-        <strong>श्री मारोतराव साहेबराव देशमुख</strong>
+        <strong>श्री मारोतराव साहेबराव देशमुख<br/>श्री मंचकराव कैलासराव जगताप देशमुख</strong>
         <hr style={{ width: "50%" }} />
         <br />
         <strong>वडिलांच्या विनंतीस मान देऊन मंगल कार्यास अगत्य यावे</strong>

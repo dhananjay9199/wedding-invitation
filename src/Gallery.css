@@ -34,6 +34,25 @@
   object-fit: cover;
 }
 
+.gallery-grid>img:hover {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: zoomIn 0.6s ease forwards;
+}
+
+@media (hover: none) {
+  .gallery-grid>img {
+    /* don't rely on :hover */
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+}
+
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
 .gallery-grid-kilbil {
   width: 100%;

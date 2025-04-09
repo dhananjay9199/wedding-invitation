@@ -33,7 +33,7 @@ export default function Gallery() {
       </div>
       <br/>
       <br/>
-      <h3>मामाच्या लग्नाला यायचं ह..!<br/>कु. आदिश्री, कु. अदिती</h3>
+      <h3>मामाच्या लग्नाला यायचं ह..!<br/>कु. आदिश्री, कु. आदिती</h3>
       <div className="gallery-grid-kilbil">
         {mama.map((src, index) => (
           <img key={index} src={src} alt={`memory ${index + 1}`} />
@@ -41,7 +41,7 @@ export default function Gallery() {
       </div>
       <br/>
       <br/>
-      <h3>मावशी च्या लग्नाला यायचं ह..!<br/>चि . आयांश</h3>
+      <h3>मावशी च्या लग्नाला यायचं ह..!<br/>चि . अयांश</h3>
       <div className="gallery-grid-kilbil">
         {mavshi.map((src, index) => (
           <img key={index} src={src} alt={`memory ${index + 1}`} />
