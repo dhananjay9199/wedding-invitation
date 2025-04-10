@@ -6,7 +6,7 @@ import Map from "./Map";
 
 function App() {
   useEffect(() => {
-    document.title = "Satish & Mayuri Wedding qr code";
+    document.title = "Satish & Mayuri Wedding Invitation";
   }, []);
 
   return (
