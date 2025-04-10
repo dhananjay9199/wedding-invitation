@@ -14,7 +14,7 @@ function App() {
       <h1>🙏 आग्रहाचे निमंत्रण 🙏</h1>
       <hr style={{ border: "2px solid" }} />
       <p className="names">
-        चि. सतीश (Army Clerk) <br /> ❤️ <br /> चि.सौ.कां. मयुरी (M.Com)
+        चि. सतिश (Army Clerk) <br /> ❤️ <br /> चि.सौ.कां. मयुरी (M.Com)
       </p>
       <p>We’re getting married and would love for you to join us!</p>
 
@@ -38,7 +38,7 @@ function App() {
           <thead>
             <tr>
               <th style={{ color: "#e12525" }}>
-                चि. सतीश <br />
+                चि. सतिश <br />
                 (Army Clerk)
               </th>
               <th>
