@@ -19,7 +19,10 @@ const mama = [
 
 const mavshi = [
   '/images/chiranjiv_aayansh.jpg',
+];
 
+const kaka = [
+  '/images/parth dhanshree.jpg'
 ];
 
 export default function Gallery() {
@@ -47,8 +50,14 @@ export default function Gallery() {
           <img key={index} src={src} alt={`memory ${index + 1}`} />
         ))}
       </div>
-
-
+      <br/>
+      <br/>
+      <h3>काका च्या लग्नाला यायच ह..!<br/> चि .पार्थ कु . धनश्री</h3>
+      <div className="gallery-grid-kilbil">
+        {kaka.map((src, index) => (
+          <img key={index} src={src} alt={`memory ${index + 1}`} style={{width:"100%", height:"300px"}} />
+        ))}
+      </div>
     </div>
   );
 }
